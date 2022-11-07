@@ -16,6 +16,36 @@ h1 {
     margin: 0;
 }
 
+.nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; 
+}
+  
+li {
+  float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 p {
     line-height: 1.4em;
 }
@@ -31,3 +61,53 @@ p {
 article {
     border-bottom: 1px solid #000;
 }
+
+.some-page-wrapper {
+    margin: 15px;
+    background-color: red;
+  }
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+  
+.blue-column {
+    background-color: rgb(149, 148, 148);
+    height: 50px;
+}
+  
+.green-column {
+    background-color: rgb(191, 189, 189);
+    height: 50px;
+}
+
+.image {
+    float: right;
+    width: 300px;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+.image2 {
+    float: right;
+    width: 120px;
+    margin: 0 0 15px 20px;
+    padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+}
+  
+
+
